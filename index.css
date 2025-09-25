@@ -658,7 +658,7 @@ nav ul li a:hover::after {
 /* Responsive Design */
 
 /* Extra small devices (mobiles) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1024px) {
     .links {
         display: none;
         display: none;
@@ -754,7 +754,7 @@ nav ul li a:hover::after {
 }
 
 /* Small devices (tablets) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
     nav ul {
         display: none;
         flex-direction: column;
