@@ -30,7 +30,7 @@ body {
 
 /* Navbar */
 nav {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 20px;
@@ -66,6 +66,7 @@ header.scrolled {
 
 .humbanger {
     visibility: hidden;
+    margin-right: 15px;
 }
 
 nav ul {
@@ -658,7 +659,13 @@ nav ul li a:hover::after {
 /* Responsive Design */
 
 /* Extra small devices (mobiles) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 480px) {
+    header{
+        display: flex;
+    }
+    nav{
+        display: flex;
+    }
     .links {
         display: none;
         display: none;
@@ -701,7 +708,11 @@ nav ul li a:hover::after {
 
     .hero-btns {
         flex-direction: column;
+        margin-top: 20px;
         gap: 15px;
+    }
+    .hero-btns a{
+        margin-top: 20px;
     }
 
     .hero-image {
@@ -754,7 +765,7 @@ nav ul li a:hover::after {
 }
 
 /* Small devices (tablets) */
-@media screen and (min-width: 481px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     nav ul {
         display: none;
         flex-direction: column;
