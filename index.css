@@ -31,7 +31,6 @@ body {
 /* Navbar */
 nav {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px 20px;
     display: flex;
@@ -41,9 +40,9 @@ nav {
 
 header {
     position: fixed;
+    width: 100vw;
     top: 0;
     left: 0;
-    width: 100%;
     z-index: 1000;
     background-color: rgba(15, 15, 30, 0.9);
     backdrop-filter: blur(10px);
@@ -692,10 +691,11 @@ nav ul li a:hover::after {
     }
 
     .hero {
+        padding: 120px 20px;
+        overflow-x: hidden;
         flex-direction: column;
         text-align: center;
-        padding: 120px 20px;
-        height: auto;
+        position: relative;
     }
 
     .hero-content h1 {
@@ -717,15 +717,20 @@ nav ul li a:hover::after {
 
     .hero-image {
         position: relative;
-        bottom: -20px;
-        right: -5px;
-        margin-top: 40px;
-        width: 300px;
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+        width: 100px;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
     }
 
     .hero-image img {
         width: 100%;
         height: auto;
+        max-width: 100%;
     }
 
     .about-content,
@@ -738,7 +743,12 @@ nav ul li a:hover::after {
     }
 
     .container {
-        margin-left: 0px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+
     }
 
     .container-projects {
@@ -765,7 +775,7 @@ nav ul li a:hover::after {
 }
 
 /* Small devices (tablets) */
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 760px) {
     nav ul {
         display: none;
         flex-direction: column;
