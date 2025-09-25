@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="humbanger">
+                <i class="fas fa-bars" onclick="links.style.display"></i>
+            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Hello, I'm</span>
+                <h1>Aditya Kumar</h1>
+                <p>A passionate full stack web developer designer with a keen eye for creating engaging experiences. I
+                    specialize in building responsive and performant web applications.</p>
+            </div>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="hero-image">
+                <img src="data/hero-immg.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h1>About Me</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m a first-year BCA student with a strong passion for web development and building functional,
+                        user-friendly applications. My journey has just begun, but I’m deeply motivated to grow into a
+                        skilled Full Stack Developer.</p>
+                    <p>I enjoy learning new technologies, writing clean and efficient code, and exploring ways to create
+                        seamless user experiences. Alongside my studies, I’m building a solid foundation in both
+                        frontend and backend development, while keeping up with the latest design and technology trends.
+                    </p>
+                    <p>When I’m not coding, you’ll find me reading tech blogs, experimenting with new tools, or
+                        exploring creative ideas for future projects.</p>
+                    <p>I’m eager to connect with opportunities that allow me to learn, contribute, and grow as a
+                        developer.</p>
+                </div>
+                <div class="about-image">
+                    <img src="me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1>My Skills</h1>
+            <div class="skills-content">
+                <div class="skill">
+                    <h3>HTML & CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>PHP & MySQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>React & Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container container-projects">
+            <h1>My Projects</h1>
+            <div class="projects-content">
+                <div class="project-card">
+                    <img src="data/msc.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Store Website</h3>
+                        <p>Designed and developed the complete website for MultiMedia Solution Cafe, showcasing their
+                            photography and video editing services through a responsive layout, intuitive navigation,
+                            and clear visual branding.</p>
+                        <a href="https://adikumar3135.github.io/multimediasolution/" class="btn btn-outline">View
+                            Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="data/game.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Rock Paper Scissor</h3>
+                        <p>Built an interactive Rock Paper Scissors game to strengthen core programming skills, focusing
+                            on logic building, condition handling, and user input validation while delivering a simple
+                            and engaging user experience.</p>
+                        <a href="#" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="data/totobag.png" alt="Project 3">
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>An e-commerce web application using PHP and MySQL for managing products, orders, and
+                            payments.</p>
+                        <a href="https://adikumar3135.github.io/Totebag/" class="btn btn-outline">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Feel free to reach out to me for collaborations, projects, or just a friendly hello!</p>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:adikumar3135@gmail.com">adikumar3135@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i><a href="tel: +918252074506">+91  8252074506</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i>Bhagalpur, Bihar, India</li>
+                    </ul>
+                </div>
+
+                <!-- Floating Neon Circles -->
+                <span class="circle c1"></span>
+                <span class="circle c2"></span>
+                <span class="circle c3"></span>
+            </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <h2>Get In Touch</h2>
+                <p>If you have any opportunities or projects you’d like to discuss, feel free to contact me.</p>
+                <div class="contact-links">
+                    <a href="mailto:adikumar3135@gmail.com"><i class="fas fa-envelope"></i> adikumar3135@gmail.com</a>
+                    <a href="tel:+918252074506"><i class="fas fa-phone"></i> +91 8252074506</a>
+                    <a href="https://www.linkedin.com/in/aditya-kumar-0303b9331/" target="_blank"><i class="fab fa-linkedin"></i>
+                        LinkedIn</a>
+                    <a href="https://wa.me/918252074506" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
+                    <a href="https://www.facebook.com/aditya.kushwaha.455427/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aditya Kumar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
