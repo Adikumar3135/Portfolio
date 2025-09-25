@@ -728,7 +728,7 @@ nav ul li a:hover::after {
     }
 
     .hero-image img {
-        width: 100%;
+        width: 300%;
         height: auto;
         max-width: 100%;
     }
@@ -954,3 +954,4 @@ nav ul li a:hover::after {
 html {
     scroll-behavior: smooth;
 }
+
