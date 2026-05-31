@@ -4,190 +4,443 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya Portfolio</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Creative Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+
+    <!-- HEADER -->
     <header>
+
         <nav>
-            <a href="#" class="logo">Portfolio</a>
-            <div class="humbanger">
-                <i class="fas fa-bars" onclick="links.style.display"></i>
+            <!-- Theme Toggle -->
+            <div class="theme-toggle" id="themeToggle">
+                <i class="ri-moon-clear-line"></i>
             </div>
-            <ul class="links">
-                <li><a href="#home">Home</a></li>
+            <h2 class="logo">Aditya<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
+            <div class="menu" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <span class="hero-subtitle">Hello, I'm</span>
-                <h1>Aditya Kumar</h1>
-                <p>A passionate full stack web developer designer with a keen eye for creating engaging experiences. I
-                    specialize in building responsive and performant web applications.</p>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+
+        <div class="left">
+
+            <p class="tag">WELCOME TO MY SPACE</p>
+
+            <h1>
+                Hi, I'm <span>Aditya</span>
+            </h1>
+
+            <h3>Web Developer • Creative Designer</h3>
+
+            <p class="desc">
+                Crafting modern, highly interactive web applications with clean
+                architecture and stunning user experiences.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Hire Me</a>
             </div>
-            <div class="hero-btns">
-                <a href="#projects" class="btn">View My Work</a>
-                <a href="#contact" class="btn btn-outline">Contact Me</a>
+
+            <div class="socials">
+
+                <a href="https://github.com/Adikumar3135" target="_blank">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aditya-kumar-0303b9331" target="_blank">
+                    <i class="ri-linkedin-box-fill"></i>
+                </a>
+
+                <a href="https://www.instagram.com/adi_kushwah_a" target="_blank">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+
             </div>
-            <div class="hero-image">
-                <img src="data/hero-immg.png" alt="">
+
+        </div>
+
+        <div class="right">
+
+            <div class="circle c1"></div>
+            <div class="circle c2"></div>
+
+            <div class="image-box">
+                <img src="me.png" alt="">
             </div>
+
         </div>
 
     </section>
+
+    <!-- ABOUT SECTION -->
 
     <section class="about" id="about">
-        <div class="container">
-            <h1>About Me</h1>
+
+        <div class="title">
+            <p>ABOUT ME</p>
+            <h2>Creative Developer</h2>
+        </div>
+
+        <div class="about-container">
+
+            <!-- LEFT IMAGE -->
+
+            <div class="about-image">
+
+                <div class="image-card">
+                    <img src="me1.png" alt="Aditya Kumar" style="border-radius: 50%;">
+                </div>
+
+            </div>
+
+            <!-- RIGHT CONTENT -->
+
             <div class="about-content">
-                <div class="about-text">
-                    <p>I’m a first-year BCA student with a strong passion for web development and building functional,
-                        user-friendly applications. My journey has just begun, but I’m deeply motivated to grow into a
-                        skilled Full Stack Developer.</p>
-                    <p>I enjoy learning new technologies, writing clean and efficient code, and exploring ways to create
-                        seamless user experiences. Alongside my studies, I’m building a solid foundation in both
-                        frontend and backend development, while keeping up with the latest design and technology trends.
-                    </p>
-                    <p>When I’m not coding, you’ll find me reading tech blogs, experimenting with new tools, or
-                        exploring creative ideas for future projects.</p>
-                    <p>I’m eager to connect with opportunities that allow me to learn, contribute, and grow as a
-                        developer.</p>
+
+                <h3>
+                    I Build Modern & Interactive Websites
+                </h3>
+
+                <p>
+                    I'm a passionate full stack developer focused on creating
+                    premium, responsive and visually stunning websites using
+                    modern web technologies.
+                </p>
+
+                <p>
+                    I love crafting clean UI designs, smooth animations,
+                    interactive user experiences and high-performance layouts
+                    that look perfect on every device.
+                </p>
+
+                <!-- ABOUT INFO -->
+
+                <div class="about-info">
+
+                    <div class="info-box">
+                        <h4>Experience</h4>
+                        <span>1+ Years</span>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Projects</h4>
+                        <span>20+ Completed</span>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Support</h4>
+                        <span>24/7 Available</span>
+                    </div>
+
                 </div>
-                <div class="about-image">
-                    <img src="me.jpg" alt="">
+
+                <!-- BUTTONS -->
+
+                <div class="about-buttons">
+
+                    <a href="RESUME.pdf" class="btn primary">
+                        Download CV
+                    </a>
+
+                    <a href="https://wa.me/+91 8252074506" class="btn secondary">
+                        Hire Me
+                    </a>
+
                 </div>
+
             </div>
+
         </div>
 
     </section>
-    <section class="skills" id="skills">
-        <div class="container">
-            <h1>My Skills</h1>
-            <div class="skills-content">
-                <div class="skill">
-                    <h3>HTML & CSS</h3>
-                    <div class="skill-bar">
-                        <div class="skill-fill" style="width: 90%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>JavaScript</h3>
-                    <div class="skill-bar">
-                        <div class="skill-fill" style="width: 80%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>PHP & MySQL</h3>
-                    <div class="skill-bar">
-                        <div class="skill-fill" style="width: 75%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>React & Node.js</h3>
-                    <div class="skill-bar">
-                        <div class="skill-fill" style="width: 70%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h3>UI/UX Design</h3>
-                    <div class="skill-bar">
-                        <div class="skill-fill" style="width: 85%;"></div>
-                    </div>
-                </div>
-            </div>
+
+    <!-- PARTICLE CANVAS -->
+
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- ABOUT -->
+    <section class="about-me">
+
+        <div class="title">
+            <p>CAPABILITIES</p>
+            <h2>What I Do</h2>
         </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="ri-code-box-line"></i>
+                <h3>Frontend Development</h3>
+                <p>
+                    Building responsive and modern websites using HTML, CSS,
+                    JavaScript and React.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="ri-smartphone-line"></i>
+                <h3>Responsive Design</h3>
+                <p>
+                    Creating layouts that perfectly fit mobile, tablet and desktop screens.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="ri-palette-line"></i>
+                <h3>Creative UI Design</h3>
+                <p>
+                    Designing beautiful interfaces with glassmorphism and smooth animations.
+                </p>
+            </div>
+
+        </div>
+
     </section>
 
+    <!-- PROJECTS -->
     <section class="projects" id="projects">
-        <div class="container container-projects">
-            <h1>My Projects</h1>
-            <div class="projects-content">
-                <div class="project-card">
-                    <img src="data/msc.png" alt="Project 1">
-                    <div class="project-info">
-                        <h3>Store Website</h3>
-                        <p>Designed and developed the complete website for MultiMedia Solution Cafe, showcasing their
-                            photography and video editing services through a responsive layout, intuitive navigation,
-                            and clear visual branding.</p>
-                        <a href="https://adikumar3135.github.io/multimediasolution/" class="btn btn-outline">View
-                            Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="data/game.png" alt="Project 2">
-                    <div class="project-info">
-                        <h3>Rock Paper Scissor</h3>
-                        <p>Built an interactive Rock Paper Scissors game to strengthen core programming skills, focusing
-                            on logic building, condition handling, and user input validation while delivering a simple
-                            and engaging user experience.</p>
-                        <a href="https://adikumar3135.github.io/StonePaperGame/" class="btn btn-outline">View Project</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="data/totobag.png" alt="Project 3">
-                    <div class="project-info">
-                        <h3>E-commerce Website</h3>
-                        <p>An e-commerce web application using PHP and MySQL for managing products, orders, and
-                            payments.</p>
-                        <a href="https://adikumar3135.github.io/Totebag/" class="btn btn-outline">View Project</a>
-                    </div>
-                </div>
-            </div>
+
+        <div class="title">
+            <p>PORTFOLIO</p>
+            <h2>Recent Work</h2>
         </div>
+
+        <div class="project-container">
+
+            <a href="https://arya-res.freehosting.dev/" style="text-decoration: none;">
+                <div class="project-card">
+                    <img src="https://www.concretecms.com/application/files/9417/1778/2239/Restaurant_Websites.jpg"
+                        alt="">
+
+                    <div class="content">
+                        <h3>Restaurant Website</h3>
+                        <p>Modern restaurant platform with responsive layout.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://k4a-six.vercel.app/" style="text-decoration: none;">
+                <div class="project-card">
+                    <img src="https://cdn.dribbble.com/userupload/9000434/file/original-903fac30a0a944a36dcfaeb29e373619.png?format=webp&resize=400x300&vertical=center"
+                        alt="">
+
+                    <div class="content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full stack e-commerce solution with modern features.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" style="text-decoration: none;">
+                <div class="project-card">
+                    <img src="https://gizmodo.com/app/uploads/2025/02/Best-Portfolio-Websites-Builders.jpg"
+                        alt="">
+
+                    <div class="content">
+                        <h3>Creative Portfolio</h3>
+                        <p>Interactive animated personal portfolio website.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://swarnim-seven.vercel.app/" style="text-decoration: none;">
+                <div class="project-card">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/056/164/349/small/modern-electronics-store-showing-various-devices-photo.jpg"
+                        alt="">
+
+                    <div class="content">
+                        <h3>Creative Electronic Shop Website</h3>
+                        <p>Powering Your World with the Latest Electronics ⚡📱</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
     </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills">
+
+        <div class="title">
+            <p>MY SKILLS</p>
+            <h2>Skills & Tools</h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+                <i class="ri-html5-fill"></i>
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="ri-css3-fill"></i>
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="ri-javascript-fill"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="ri-reactjs-line"></i>
+                <h3>React JS</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-github"></i>
+                <h3>GitHub</h3>
+            </div>
+
+            <div class="skill-box">
+                <i class="fa-brands fa-php"></i>
+                <h3>PHP</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
 
     <section class="contact" id="contact">
-        <div class="container">
-            <h1>Contact Me</h1>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <p>Feel free to reach out to me for collaborations, projects, or just a friendly hello!</p>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:adikumar3135@gmail.com">adikumar3135@gmail.com</a></li>
-                        <li><i class="fas fa-phone"></i><a href="tel: +918252074506">+91  8252074506</a></li>
-                        <li><i class="fas fa-map-marker-alt"></i>Bhagalpur, Bihar, India</li>
-                    </ul>
+
+        <div class="title">
+            <p>GET IN TOUCH</p>
+            <h2>Let's Work Together</h2>
+        </div>
+
+        <div class="contact-cards">
+
+            <!-- EMAIL -->
+
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="ri-mail-line"></i>
                 </div>
 
-                <!-- Floating Neon Circles -->
-                <span class="circle c1"></span>
-                <span class="circle c2"></span>
-                <span class="circle c3"></span>
+                <h3>Email Me</h3>
+
+                <p>adikumar3135@gmail.com</p>
+
+                <a href="mailto:adikumar3135@gmail.com" class="contact-btn">
+                    Send Mail
+                </a>
+
             </div>
+
+            <!-- WHATSAPP -->
+
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="ri-whatsapp-line"></i>
+                </div>
+
+                <h3>WhatsApp</h3>
+
+                <p>Chat Instantly Anytime</p>
+
+                <a href="https://wa.me/+91 8252074506" class="contact-btn">
+                    Message Me
+                </a>
+
+            </div>
+
+            <!-- LINKEDIN -->
+
+            <div class="contact-card">
+
+                <div class="icon">
+                    <i class="ri-linkedin-box-line"></i>
+                </div>
+
+                <h3>LinkedIn</h3>
+
+                <p>Professional Networking</p>
+
+                <a href="https://www.linkedin.com/in/aditya-kumar-0303b9331" class="contact-btn">
+                    Visit Profile
+                </a>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <footer class="footer" id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <h2>Get In Touch</h2>
-                <p>If you have any opportunities or projects you’d like to discuss, feel free to contact me.</p>
-                <div class="contact-links">
-                    <a href="mailto:adikumar3135@gmail.com"><i class="fas fa-envelope"></i> adikumar3135@gmail.com</a>
-                    <a href="tel:+918252074506"><i class="fas fa-phone"></i> +91 8252074506</a>
-                    <a href="https://www.linkedin.com/in/aditya-kumar-0303b9331/" target="_blank"><i class="fab fa-linkedin"></i>
-                        LinkedIn</a>
-                    <a href="https://wa.me/918252074506" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a>
-                    <a href="https://www.facebook.com/aditya.kushwaha.455427/" target="_blank"><i class="fa-brands fa-facebook"></i>Facebook</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Aditya Kumar. All Rights Reserved.</p>
-            </div>
-        </div>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Aditya. All Rights Reserved.</p>
     </footer>
 
+    <!-- LOADER -->
 
-    <script src="index.js"></script>
+    <div class="loader" id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-circle"></div>
+
+            <h2 class="loader-logo">
+                Aditya<span>.</span>
+            </h2>
+
+            <p>Loading Creative Experience...</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
-
 
 </html>
